@@ -83,7 +83,26 @@ const Index = () => {
               </div>
             </div>
             <div className="bg-white p-6">
-              <div className="animate-pulse bg-gray-200 h-64 rounded-lg"></div>
+              <div 
+                className="bg-cover bg-center h-64 rounded-lg border border-gray-200 shadow-inner"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1655720031554-a929595ffad7?auto=format&fit=crop&q=80&w=1600&ixlib=rb-4.0.3')",
+                  backgroundSize: "cover"
+                }}
+              >
+                <div className="bg-black/30 h-full w-full flex items-end p-4 rounded-lg">
+                  <div className="bg-white/90 backdrop-blur-sm p-3 rounded-lg shadow-lg w-full">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="w-8 h-8 rounded-full bg-promptpal-purple flex items-center justify-center text-white text-xs font-bold">
+                        U
+                      </div>
+                      <div className="h-4 w-3/4 bg-gray-200 animate-pulse rounded"></div>
+                    </div>
+                    <div className="h-4 w-full bg-gray-200 animate-pulse rounded mb-1"></div>
+                    <div className="h-4 w-5/6 bg-gray-200 animate-pulse rounded"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
