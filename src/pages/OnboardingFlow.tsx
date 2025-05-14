@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { ArrowRight, Check } from "lucide-react";
-import Logo from "@/components/ui/logo";
+import Logo from "@/components/ui/Logo";
 
 const goals = [
   {
